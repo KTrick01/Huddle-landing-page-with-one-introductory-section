@@ -79,8 +79,9 @@ body {
 }
 .huddleLanding__btn {
     font-family: var(--headings);
-    
+    box-shadow: 0px 8px 10px rgba(29, 25, 25, 0.37);
     text-decoration: none;
+    
     color: #674BB1;
     background-color: white;
     text-align: center;
@@ -92,6 +93,7 @@ body {
 .huddleLanding__btn:hover {
     background-color: var(--Soft-Magenta);
     color: white;
+    transform: scale(1.1);
 
 }
 .iconContainer {
